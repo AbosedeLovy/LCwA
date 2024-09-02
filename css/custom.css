@@ -1,0 +1,818 @@
+body {
+    background-color: #f7f5f2;
+}
+
+.navbar img {
+    width: 120px;
+    height: 100px;
+}
+
+.nav-link {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.lead {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    padding: 20px;
+}
+
+.homepage-container img {
+    padding-left: 40px;
+}
+
+.write-up-container .section-title {
+    padding-top: 50px;
+}
+
+.write-ups-section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-left: 50px 20px;
+    margin: 30px;
+    background-color: #423d37;
+}
+
+.write-ups-section .section-title {
+    font-size: 25px;
+}
+
+.categories .category-title {
+    font-size: 25px;
+}
+
+.categories .category-description {
+    font-size: 20px;
+}
+
+.podcast-section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px;
+    background-color: #423d37;
+}
+
+.podcast-section .section-title {
+    font-size: 25px;
+}
+
+.podcast-container hr {
+    color: #b29261;
+}
+
+.podcast-class {
+    padding-left: 30px;
+}
+
+.podcast-icon .icon-spotify {
+    color: #1db954;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-bottom: 70px;
+}
+
+.podcast-icon .icon-apple {
+    color: #9933cc;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+.podcast-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #423d37;
+    color: #f7f5f2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    height: 60px;
+    width: 250px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 10px;
+}
+
+.podcast-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.podcast-button span:after {
+    content: ' \00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.podcast-button:hover span {
+    padding-right: 25px;
+}
+
+.podcast-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.categories .category-title {
+    font-size: 23px;
+}
+
+.categories .category-description {
+    font-size: 18px;
+}
+
+.gallery-container {
+    background-color: #f7f5f2;
+}
+
+.gallery-container .main-title,
+.gallery-container .sub-title {
+    color: #000;
+}
+
+.gallery-section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px;
+    background-color: #f7f5f2;
+}
+
+.gallery-section .section-title {
+    font-size: 25px;
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    background-color: #e6e2dc;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+}
+
+.aboutMeClass {
+    padding-right: 20px;
+}
+
+.aboutHeading1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-right: 50px;
+    color: #b29261;
+    margin-bottom: 10px;
+    padding: 35px;
+}
+
+.aboutHeading2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+    padding: 35px;
+}
+
+.section-title {
+    font-size: 20px;
+    color: #b29261;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.sub-title {
+    font-size: 32px;
+    margin: 10px 0 40px;
+}
+
+.main-title,
+.sub-title {
+    color: rgb(218, 208, 208);
+}
+
+.card-body {
+    padding: 5px;
+    background-color: #423d37;
+
+}
+
+.categories {
+    margin-top: 30px;
+}
+
+.category-card {
+    background-color: #423d37;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #f7f5f2;
+    border: 1px solid #b29261;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.category-title {
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(218, 208, 208);
+}
+
+.category-description {
+    margin-top: 10px;
+    color: rgb(218, 208, 208);
+    text-align: center;
+    font-size: 16px;
+}
+
+.category-card a {
+    text-decoration: none;
+}
+
+.category-card a:hover {
+    text-decoration: none;
+}
+
+.content-text {
+    max-width: 400px;
+}
+
+.content-text h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.content-text p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.content-text button {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #423d37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.content-text button:hover {
+    background-color: #b29261;
+}
+
+.poem-section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px;
+    background-color: #f7f5f2;
+}
+
+.poem-container {
+    background-color: #f7f5f2;
+}
+
+.poem-container .main-title,
+.poem-container .sub-title {
+    color: #000;
+}
+
+.poem-section .section-title {
+    font-size: 25px;
+}
+
+.poetry-container {
+    background-color: #e6e2dc;
+    padding-top: 20px;
+}
+
+.poem-button {
+    padding-left: 60px;
+}
+
+.w-100 {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.blog1-container .subscribe-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #423d37;
+    color: #f7f5f2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-right: 20px;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+    margin: 35px;
+    animation: slide-in 1s forwards;
+}
+
+.blog1-container .subscribe-button:hover {
+    background-color: #b29261;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.blog-section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px;
+    background-color: #e6e2dc;
+}
+
+.blog-section .section-title {
+    font-size: 25px;
+}
+
+.blog-section .section-title {
+    color: #423d37;
+}
+
+.blog-section .main-title {
+    color: #b29261;
+}
+
+.blog-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #423d37;
+}
+
+/* Styling the Blog Body */
+.blog-content h2 {
+    font-size: 28px;
+    color: #423d37;
+    margin-top: 30px;
+}
+
+.blog-content h3 {
+    font-size: 24px;
+    color: #b29261;
+    margin-top: 20px;
+}
+
+.blog-content p {
+    font-size: 17.6px;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.blog-content .button {
+    align-items: center;
+}
+
+.more-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #423d37;
+    color: #f7f5f2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-right: 50px;
+    height: 60px;
+    width: 350px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.more-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.more-button span:after {
+    content: ' \00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.more-button:hover span {
+    padding-right: 25px;
+}
+
+.more-button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.author-section {
+    font-size: 16px;
+    color: #b29261;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+}
+
+.author-name {
+    color: #b29261;
+    text-decoration: none;
+}
+
+.author-name:hover {
+    color: #b29261;
+    text-decoration: underline;
+}
+
+.publication-date p {
+    margin: 0;
+    color: #b29261;
+}
+
+.quote-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #f7f5f2;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #b29261;
+    position: relative;
+    margin: 0;
+    padding: 20px;
+}
+
+.quote h1::before,
+.quote h1::after {
+    content: "“";
+    font-size: 108px;
+    color: #423d37;
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+.quote h1::after {
+    content: "”";
+    right: -30px;
+    left: auto;
+}
+
+.listedQuotes {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    width: 1000px;
+}
+
+.quote-container img {
+    padding-left: 100px;
+    width: 750px;
+}
+
+.quote-buttons .previous-btn,
+.quote-buttons .next-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #423d37;
+    color: #f7f5f2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-right: 20px;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+    margin: 50px;
+    animation: slide-in 1s forwards;
+}
+
+.previous-btn:hover {
+    background-color: #f7f5f2;
+    border: 1px solid #423d37;
+    color: #000;
+}
+
+.next-btn:hover {
+    background-color: #f7f5f2;
+    border: 1px solid #423d37;
+    color: #000;
+}
+
+.episode-container img {
+    padding-left: 40px;
+}
+
+.episode-container p {
+    color: #423d37;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+.aboutMe-container {
+    background-color: #f7f5f2;
+    padding: 20px;
+    margin: 35px;
+}
+
+.aboutMe-container img {
+    border-radius: 300px;
+}
+
+.upperText,
+.lowerText {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #423d37;
+    color: #f7f5f2;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-right: 20px;
+    height: 65px;
+    width: 200px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+}
+
+.button span:after {
+    content: ' \00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 50%;
+    padding: 12px;
+    margin-left: 35px;
+    border: 1px solid #b29261;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 12px 12px 12px 35px;
+    display: inline-block;
+    color: rgb(218, 208, 208);
+    margin-right: 50px;
+}
+
+/* Styling the container */
+
+.contact-container {
+    border-radius: 4px;
+    background-color: #423d37;
+    max-width: 93%;
+    margin: 40px;
+    padding: 2px;
+    padding-right: 55px;
+}
+
+.contact-container img {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: 50px;
+}
+
+.contact-container form .btn-primary {
+    background-color: #b29261;
+    color: #f7f5f2;
+    border: #b29261;
+    padding: 12 px, 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 35px;
+}
+
+.contact-container form .btn-primary:hover {
+    background-color: #f7f5f2;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.contact-container .form-control {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    background-color: #b29261;
+    color: #423d37;
+    padding: 30px;
+    width: 100%;
+    padding-right: 80px;
+}
+
+.footer-container h5,
+.footer-container p,
+.footer-container li {
+    margin-right: 28px;
+}
+
+.footer-container img {
+    width: 120px;
+    height: 100px;
+}
+
+.footer-container a {
+    color: #423d37;
+    text-decoration: none;
+}
+
+.footer-container a:hover {
+    color: #f7f5f2;
+}
+
+.footer-container form input[type=text] {
+    width: 280px;
+    margin-top: 20px;
+    margin-left: 2px;
+    border: 1px solid #b29261;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.footer-container form .btn-primary {
+    width: 280px;
+    background-color: #423d37;
+    color: #f7f5f2;
+    cursor: pointer;
+    margin-left: 2px;
+    width: 150px;
+    border: 1px solid #b29261;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.footer-container form .btn-primary:hover {
+    background-color: #b29261;
+    border: 1px solid black;
+    color: black;
+}
+
+.footer-links a {
+    color: #423d37;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #f7f5f2;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+@media (min-width: 576px) {
+
+    body {
+        background-color: #f7f5f2;
+    }
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background-color: #f7f5f2;
+    }
+}
